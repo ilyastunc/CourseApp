@@ -1,0 +1,47 @@
+@model CourseStudentsViewModel;
+@{
+    Layout = null;
+}
+
+@{
+    var classname = Model.Students.Count > 2 ? "popular": null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        .popular {
+            color: green;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    @* <h1>@(((Course)ViewData["course"]).Name)</h1>
+    <p>@(ViewBag.course.Name)</p> *@
+
+    @* @Model.Name *@
+
+    <h1 class="@classname">@Model.Course.Name</h1>
+    @if (Model.Students.Count == 0)
+    {
+        <text>Kursta katılımcı yok</text>
+    }
+    else 
+    {
+        <ul>
+            @foreach (var item in Model.Students)
+            {
+                <li>
+                    @item.Name
+                </li>
+            }
+        </ul>
+    }
+</body>
+</html>
