@@ -40,3 +40,8 @@
 /Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/Course/Thanks.cshtml.g.cs
 /Users/tunc/Documents/C#/CourseApp/bin/Debug/net5.0/package-lock.json
 /Users/tunc/Documents/C#/CourseApp/bin/Debug/net5.0/package.json
+/Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/Home/Index2.cshtml.g.cs
+/Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/Shared/_Menu.cshtml.g.cs
+/Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/Shared/Components/Menu/Default.cshtml.g.cs
+/Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/tunc/Documents/C#/CourseApp/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
